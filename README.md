@@ -28,7 +28,7 @@ https://docs.rs/chrono-tz/latest/chrono_tz/enum.Tz.html
 - 中身はJSON型式。カンマが1つ多い少ない等でも読み込みエラーになります・・・
 
 （例）config.txt
-```JSON
+```
 {
     "displays": [
         {
