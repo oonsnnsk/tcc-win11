@@ -1,0 +1,116 @@
+{
+    "displays": [
+        {
+            "target": "main",
+            "taskbar_adjust": {
+                "left": 0,
+                "right": -500
+            },
+            "panels": [
+                {
+                    "position": "right",
+                    "width": 500,
+                    "left": 0,
+                    "show_desktop_button_position": "right",
+                    "labels": [
+                        {
+                            "timezone": "Japan",
+                            "format": "%Y/%m/%d {w_jp}曜日 %H:%M:%S",
+                            "left": 0,
+                            "top": 12,
+                            "font_color": "FFFFFF",
+                            "font_name": "游明朝",
+                            "font_size": 24,
+                            "font_bold": 0,
+                            "font_italic": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "target": "DISPLAY\RTKBC32\5&871BB8A&0&UID4352",
+            "taskbar_adjust": {
+                "left": 0,
+                "right": 0
+            },
+            "panels": [
+                {
+                    "position": "left",
+                    "width": 100,
+                    "left": 0,
+                    "show_desktop_button_position": "",
+                    "labels": [
+                        {
+                            "timezone": "",
+                            "format": "CPU:{cpu}%%",
+                            "left": 0,
+                            "top": 0,
+                            "font_color": "FFFFFF",
+                            "font_name": "Century Gothic",
+                            "font_size": 20,
+                            "font_bold": 0,
+                            "font_italic": 0
+                        },
+                        {
+                            "timezone": "",
+                            "format": "GPU0:{gpu0}%%",
+                            "left": 0,
+                            "top": 24,
+                            "font_color": "FFFFFF",
+                            "font_name": "BIZ UDゴシック",
+                            "font_size": 20,
+                            "font_bold": 0,
+                            "font_italic": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "right",
+                    "width": 200,
+                    "left": 0,
+                    "show_desktop_button_position": "",
+                    "labels": [
+                        {
+                            "timezone": "US/Pacific",
+                            "format": "%Y/%m/%d %H:%M:%S",
+                            "left": 0,
+                            "top": 0,
+                            "font_color": "FFFFFF",
+                            "font_name": "Comic Sans MS",
+                            "font_size": 20,
+                            "font_bold": 0,
+                            "font_italic": 0
+                        },
+                        {
+                            "timezone": "Europe/Rome",
+                            "format": "%Y/%m/%d %H:%M:%S",
+                            "left": 0,
+                            "top": 24,
+                            "font_color": "FFFFFF",
+                            "font_name": "Meiryo UI",
+                            "font_size": 20,
+                            "font_bold": 1,
+                            "font_italic": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "custom_formats": [
+        {
+            "spec": "w_jp",
+            "value": "%w",
+            "replace": {
+                "0": "日",
+                "1": "月",
+                "2": "火",
+                "3": "水",
+                "4": "木",
+                "5": "金",
+                "6": "土"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "displays": [
+        {
+            "target": "main",
+            "taskbar_adjust": {
+                "left": 0,
+                "right": -740
+            },
+            "panels": [
+                {
+                    "position": "right",
+                    "width": 830,
+                    "left": 0,
+                    "show_desktop_button_position": "",
+                    "labels": [
+                        {
+                            "timezone": "Japan",
+                            "format": "{cpu}%%{gpu0}%%{gpu1}%% %Y/%m/%d{w_jp} %H:%M:%S",
+                            "left": 0,
+                            "top": 0,
+                            "font_color": "FFFFFF",
+                            "font_name": "HGｺﾞｼｯｸM",
+                            "font_size": 48,
+                            "font_bold": 0,
+                            "font_italic": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "custom_formats": [
+        {
+            "spec": "w_jp",
+            "value": "%w",
+            "replace": {
+                "0": "日",
+                "1": "月",
+                "2": "火",
+                "3": "水",
+                "4": "木",
+                "5": "金",
+                "6": "土"
+            }
+        }
+    ]
+}
