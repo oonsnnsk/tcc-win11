@@ -23,6 +23,9 @@ https://docs.rs/chrono-tz/latest/chrono_tz/enum.Tz.html
 - ラベルの文字の改行（位置をずらしたラベルを2つ表示して対処してください）
 - ラベルの文字の中央寄せ、右寄せ
 
+# ダウンロードページ
+https://github.com/oonsnnsk/tcc-win11/releases
+
 # config.txt
 - utf-8 (BOMなし)
 - 中身はJSON型式。カンマが1つ多い少ない等でも読み込みエラーになります・・・
