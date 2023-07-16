@@ -1,0 +1,89 @@
+{
+    "displays": [
+        {
+            "target": "main",
+            "taskbar_adjust": {
+                "left": 0,
+                "right": -200
+            },
+            "panels": [
+                {
+                    "position": "right",
+                    "width": 200,
+                    "left": 0,
+                    "show_desktop_button_position": "right",
+                    "labels": [
+                        {
+                            "timezone": "Japan",
+                            "format": "{Y_jp}/%-m/%-d ({w_jp})",
+                            "left": 5,
+                            "top": 4,
+                            "font_color": "FFFFFF",
+                            "font_name": "游ゴシック",
+                            "font_size": 20,
+                            "font_bold": 1,
+                            "font_italic": 0
+                        },
+                        {
+                            "timezone": "Japan",
+                            "format": "%-H:%M:%S",
+                            "left": 0,
+                            "top": 24,
+                            "font_color": "FFFFFF",
+                            "font_name": "游ゴシック",
+                            "font_size": 20,
+                            "font_bold": 1,
+                            "font_italic": 0
+                        },
+                        {
+                            "timezone": "",
+                            "format": "|",
+                            "left": 66,
+                            "top": 24,
+                            "font_color": "FFFFFF",
+                            "font_name": "游ゴシック",
+                            "font_size": 20,
+                            "font_bold": 1,
+                            "font_italic": 0
+                        },
+                        {
+                            "timezone": "UTC",
+                            "format": "%-H:%M",
+                            "left": 74,
+                            "top": 24,
+                            "font_color": "FFFFFF",
+                            "font_name": "游ゴシック",
+                            "font_size": 20,
+                            "font_bold": 1,
+                            "font_italic": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "custom_formats": [
+        {
+            "spec": "Y_jp",
+            "value": "%Y",
+            "replace": {
+                "2023": "令5",
+                "2024": "令6",
+                "2025": "令7"
+            }
+        },
+        {
+            "spec": "w_jp",
+            "value": "%w",
+            "replace": {
+                "0": "日",
+                "1": "月",
+                "2": "火",
+                "3": "水",
+                "4": "木",
+                "5": "金",
+                "6": "土"
+            }
+        }
+    ]
+}
